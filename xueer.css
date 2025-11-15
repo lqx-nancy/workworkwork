@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-
 }
 
 .container {
@@ -33,8 +32,8 @@ a {
     transition: color 0.3s;
 }
 
-a:hover{
-    color:red;
+a:hover {
+    color: red;
 }
 
 
@@ -128,6 +127,7 @@ a:hover{
     color: rgb(193, 193, 193);
     font-size: 13px;
     transition: color 0.1s;
+    text-align: left;
 }
 
 .w4:hover {
@@ -143,7 +143,7 @@ img {
     margin-top: 20px;
     justify-content: center;
     display: flex;
-    gap: 40px;
+    gap: 100px;
 }
 
 .dl-container2 {
@@ -159,20 +159,25 @@ img {
 li {
     color: black;
     transition: color 0.1s;
+    text-align: left;
 }
 
 li:hover {
     color: tomato;
 }
 
-dl {
-    border-left: 1px solid lightgray;
-    margin: 10px 0;
-    text-align: center;
-}
-
 .dl1 {
     border-left: none;
+}
+
+.cross {
+    border-left: none;
+}
+
+ul {
+    border-left: 1px solid lightgray;
+    margin: 20px 0;
+    text-align: center;
 }
 
 .dl2 {
@@ -206,18 +211,14 @@ dl {
     background: rgb(49, 219, 151);
 }
 
-
-
 .w2 {
     color: rgb(49 219 151);
     margin-bottom: 20px;
-
 }
 
 .w25 {
     color: rgb(49 219 151);
     margin-bottom: 80px;
-
 }
 
 .w35 {
@@ -234,8 +235,8 @@ dl {
     color: rgb(49 219 151);
     font-size: 45px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 2px solid rgb(49 219 151);
     justify-content: center;
     align-items: center;
@@ -243,7 +244,7 @@ dl {
     margin: 0 auto 10px;
     background-color: white;
     transition: background-color 0.3s;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .circle1:hover {
@@ -283,7 +284,7 @@ dl {
     position: absolute;
     top: -60px;
     opacity: 0;
-    transition: opacity ease-in-out 0.5s;
+    transition: opacity ease-out 0.35s;
 }
 
 body {
